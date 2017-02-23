@@ -3,11 +3,9 @@ var winningBox = Math.floor((Math.random() * 3) + 1); // Picks a random number b
 function guessBox(boxNumber) {
 
   if (boxNumber === winningBox) {
-    alert("You win!");
+    alert("Hello!!! You won, conglatulations!");
   } else {
-    console.log("wrong");
+    console.log("you chose a wrong box, guess again!!!");
   }
 
 }
-
-

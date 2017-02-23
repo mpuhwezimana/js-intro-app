@@ -1,1 +1,3 @@
-
+function clickNumbers () {
+  console.log()
+}
